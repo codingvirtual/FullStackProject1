@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+""" Define 6 movies to display on the page """
+
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -27,6 +29,9 @@ hunger_games = media.Movie("The Hunger Games", "A really real reality show",
                            "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
                            "https://www.youtube.com/watch=v?Pba63a7H0bo")
 
+""" Assemble movies into an array so they can be passed to the function provided by the Udacity starter code """
 movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+
+""" Call provided code to display a properly formatted movies page """
 fresh_tomatoes.open_movies_page(movies)
 
