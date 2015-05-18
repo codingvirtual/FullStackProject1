@@ -1,5 +1,5 @@
-Pitch Perfect
-=============
+MOVIE TRAILER WEBSITE
+=====================
 
 Project 1 from the Udacity Full-Stack Nanodegree program. Simple single-page 
 display of several movies with ability to click for the trailer. This initial 
